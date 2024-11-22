@@ -1,0 +1,262 @@
+13-Nov-2024 10:54:53.392 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+13-Nov-2024 10:54:53.392 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+13-Nov-2024 10:54:53.425 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:54:53.429 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:54:53.455 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 10:55:26.385 INFO [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:55:34.229 INFO [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:55:34.550 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:56:20.702 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:56:20.702 INFO [http-nio-8080-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 10:56:48.418 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:57:40.085 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:58:26.733 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:58:26.736 INFO [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 10:58:26.756 INFO [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:02:00.198 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:02:00.198 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:03:27.853 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:03:27.857 INFO [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:03:27.870 INFO [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:03:33.562 INFO [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:03:33.564 INFO [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:03:33.584 INFO [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:03:33.594 INFO [http-nio-8080-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:04:16.143 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:04:16.147 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:04:16.157 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:04:16.861 SEVERE [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: Error starting [/ListadoArticulos]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ListadoArticulos]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1283)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:335)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: java.lang.IllegalArgumentException: El mapeo de Servlet especifica un nombre de servlet desconocido [Incidencias]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2834)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:882)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1500)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1287)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 31 more
+13-Nov-2024 11:05:03.352 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:03.354 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:03.381 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:04.217 INFO [http-nio-8080-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context11106840124675032241.xml'
+13-Nov-2024 11:05:05.307 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:05.311 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:05.320 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:05.877 INFO [http-nio-8080-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context9496174054786824419.xml'
+13-Nov-2024 11:05:20.485 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:20.487 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:20.491 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:21.304 INFO [http-nio-8080-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context14052355706458784879.xml'
+13-Nov-2024 11:05:22.376 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:22.379 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:22.383 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:22.948 INFO [http-nio-8080-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context13944350480870580228.xml'
+13-Nov-2024 11:05:30.135 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:30.137 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:30.142 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:30.688 INFO [http-nio-8080-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context7997763239726435621.xml'
+13-Nov-2024 11:05:31.747 INFO [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:31.747 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:31.747 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:32.287 INFO [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context13056479901980279571.xml'
+13-Nov-2024 11:05:39.989 INFO [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:39.993 INFO [http-nio-8080-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:40.000 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:40.718 INFO [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context16919409027816695011.xml'
+13-Nov-2024 11:05:41.765 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:41.767 INFO [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:05:41.771 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:05:42.289 INFO [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context13692647317485959128.xml'
+13-Nov-2024 11:06:04.702 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:06:04.706 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:06:04.710 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:06:05.257 INFO [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context2343950809009361661.xml'
+13-Nov-2024 11:07:47.848 INFO [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:07:47.851 INFO [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:07:47.853 INFO [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:07:48.453 INFO [http-nio-8080-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context2381544716378647750.xml'
+13-Nov-2024 11:07:49.270 INFO [http-nio-8080-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:09:01.913 INFO [http-nio-8080-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:09:01.916 INFO [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:09:01.927 INFO [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:10:52.280 INFO [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:10:52.284 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:12:16.498 INFO [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:12:16.501 INFO [http-nio-8080-exec-79] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:12:47.717 INFO [http-nio-8080-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:12:47.721 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:14:37.512 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:14:37.516 INFO [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:14:38.613 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:14:38.617 INFO [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:14:56.878 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:14:56.881 INFO [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:14:58.000 INFO [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:14:58.003 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:15:58.863 INFO [http-nio-8080-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:15:58.865 INFO [http-nio-8080-exec-88] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:15:58.888 INFO [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:15:58.898 INFO [http-nio-8080-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:18:28.284 INFO [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:18:28.288 INFO [http-nio-8080-exec-95] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:19:36.468 INFO [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:19:36.502 INFO [http-nio-8080-exec-104] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:20:08.881 INFO [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:20:08.881 INFO [http-nio-8080-exec-108] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:20:10.019 INFO [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:20:10.023 INFO [http-nio-8080-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:20:55.283 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:20:55.286 INFO [http-nio-8080-exec-108] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:21:11.461 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:11.465 INFO [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'
+13-Nov-2024 11:21:11.465 SEVERE [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: Error reloading [/ListadoArticulos]
+	java.lang.IllegalStateException: Aún no se ha arrancado el Contexto [/ListadoArticulos]
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3190)
+		at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1029)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:323)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+13-Nov-2024 11:21:21.256 INFO [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:21.259 INFO [http-nio-8080-exec-120] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:21.264 INFO [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:21:21.798 INFO [http-nio-8080-exec-119] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:21.800 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:22.080 INFO [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:21:22.081 INFO [http-nio-8080-exec-117] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:21:22.083 INFO [http-nio-8080-exec-118] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context6399470128380311884.xml'
+13-Nov-2024 11:21:32.023 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:32.025 INFO [http-nio-8080-exec-119] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:32.029 INFO [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:21:32.587 INFO [http-nio-8080-exec-124] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context14052995928967378253.xml'
+13-Nov-2024 11:21:34.451 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:34.451 INFO [http-nio-8080-exec-121] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:34.473 INFO [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:21:34.559 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:21:35.245 SEVERE [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: Error starting [/ListadoArticulos]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ListadoArticulos]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1283)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:335)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:598)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: java.lang.IllegalArgumentException: El mapeo de Servlet especifica un nombre de servlet desconocido [svIncidencias]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:2834)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:882)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1500)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1287)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 31 more
+13-Nov-2024 11:21:56.566 INFO [http-nio-8080-exec-120] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:56.569 INFO [http-nio-8080-exec-122] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:21:56.572 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:21:57.104 INFO [http-nio-8080-exec-123] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context17471750339278021024.xml'
+13-Nov-2024 11:22:13.601 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:22:13.602 INFO [http-nio-8080-exec-106] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:22:13.607 INFO [http-nio-8080-exec-127] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/ListadoArticulos'
+13-Nov-2024 11:22:14.363 INFO [http-nio-8080-exec-129] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/2DAW~1/AppData/Local/Temp/context7057907466264415740.xml'
+13-Nov-2024 11:22:15.109 INFO [http-nio-8080-exec-121] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:22:18.228 INFO [http-nio-8080-exec-116] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:22:18.230 INFO [http-nio-8080-exec-132] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:22:18.251 INFO [http-nio-8080-exec-128] org.apache.catalina.core.ApplicationContext.log Manager: stop: Stopping web application '/ListadoArticulos'
+13-Nov-2024 11:22:18.261 INFO [http-nio-8080-exec-132] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/ListadoArticulos'
+13-Nov-2024 11:23:17.886 INFO [http-nio-8080-exec-136] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:23:18.198 INFO [http-nio-8080-exec-137] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:23:31.217 INFO [http-nio-8080-exec-138] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:23:31.218 INFO [http-nio-8080-exec-141] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:25:47.397 INFO [http-nio-8080-exec-141] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+13-Nov-2024 11:25:47.397 INFO [http-nio-8080-exec-134] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/ListadoArticulos'

@@ -1,0 +1,73 @@
+08-Oct-2024 12:01:50.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.29
+08-Oct-2024 12:01:50.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 14:23:34 UTC
+08-Oct-2024 12:01:50.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.29.0
+08-Oct-2024 12:01:50.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+08-Oct-2024 12:01:50.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+08-Oct-2024 12:01:50.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+08-Oct-2024 12:01:50.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-22
+08-Oct-2024 12:01:50.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       22.0.1+8-16
+08-Oct-2024 12:01:50.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+08-Oct-2024 12:01:50.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29
+08-Oct-2024 12:01:50.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\logging.properties
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+08-Oct-2024 12:01:50.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Oct-2024 12:01:50.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Oct-2024 12:01:50.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29
+08-Oct-2024 12:01:50.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29
+08-Oct-2024 12:01:50.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\temp
+08-Oct-2024 12:01:50.912 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.8] con la versión APR [1.7.4].
+08-Oct-2024 12:01:50.945 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+08-Oct-2024 12:01:51.199 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+08-Oct-2024 12:01:51.222 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [565] milliseconds
+08-Oct-2024 12:01:51.272 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Oct-2024 12:01:51.272 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.29]
+08-Oct-2024 12:01:51.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Democlase.xml]
+08-Oct-2024 12:01:51.292 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Democlase] in deployment descriptor [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Democlase.xml] has been ignored
+08-Oct-2024 12:01:51.633 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Oct-2024 12:01:51.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Democlase.xml] has finished in [400] ms
+08-Oct-2024 12:01:51.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\docs] de la aplicación web
+08-Oct-2024 12:01:51.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\docs] has finished in [37] ms
+08-Oct-2024 12:01:51.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\examples] de la aplicación web
+08-Oct-2024 12:01:52.134 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\examples] has finished in [412] ms
+08-Oct-2024 12:01:52.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\host-manager] de la aplicación web
+08-Oct-2024 12:01:52.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\host-manager] has finished in [34] ms
+08-Oct-2024 12:01:52.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\manager] de la aplicación web
+08-Oct-2024 12:01:52.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\manager] has finished in [35] ms
+08-Oct-2024 12:01:52.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\ROOT] de la aplicación web
+08-Oct-2024 12:01:52.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\webapps\ROOT] has finished in [22] ms
+08-Oct-2024 12:01:52.230 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Oct-2024 12:01:52.251 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1026] milliseconds
+08-Oct-2024 12:01:56.529 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Incidencias2.xml]
+08-Oct-2024 12:01:56.530 WARNING [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Incidencias2] in deployment descriptor [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Incidencias2.xml] has been ignored
+08-Oct-2024 12:01:56.562 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Incidencias2.xml] has finished in [33] ms
+08-Oct-2024 12:01:56.566 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Incidencias2]] after start() had already been called. The second call will be ignored.
+08-Oct-2024 12:20:48.215 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Incidencias2]
+08-Oct-2024 13:01:13.978 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Incidencias2.xml]
+08-Oct-2024 13:01:13.979 WARNING [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Incidencias2] in deployment descriptor [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Incidencias2.xml] has been ignored
+08-Oct-2024 13:01:14.011 INFO [http-nio-8080-exec-12] java.util.ArrayList.forEach Name = incidencias2 Ignoring unknown property: value of "false" for "useSSL" property
+08-Oct-2024 13:01:14.011 INFO [http-nio-8080-exec-12] java.util.ArrayList.forEach Name = incidencias2 Ignoring unknown property: value of "true" for "allowPublicKeyRetrieval" property
+08-Oct-2024 13:01:14.011 INFO [http-nio-8080-exec-12] java.util.ArrayList.forEach Name = incidencias2 Ignoring unknown property: value of "UTC" for "serverTimezone" property
+08-Oct-2024 13:01:14.045 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\2º DAW\Desktop\DWES\apache-tomcat-10.1.29\conf\Catalina\localhost\Incidencias2.xml] has finished in [67] ms
+08-Oct-2024 13:01:14.047 INFO [http-nio-8080-exec-18] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Incidencias2]] after start() had already been called. The second call will be ignored.
+08-Oct-2024 13:17:17.619 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Incidencias2]
+08-Oct-2024 13:17:17.651 INFO [http-nio-8080-exec-17] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Oct-2024 13:22:47.451 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Incidencias2]
+08-Oct-2024 13:22:47.488 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Oct-2024 13:22:47.590 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Incidencias2]
+08-Oct-2024 13:22:47.622 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Oct-2024 13:23:01.578 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Incidencias2]
+08-Oct-2024 13:23:01.609 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Oct-2024 13:35:42.718 INFO [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Incidencias2]
+08-Oct-2024 13:35:42.749 INFO [http-nio-8080-exec-31] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+08-Oct-2024 13:35:47.285 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+08-Oct-2024 13:35:47.286 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Oct-2024 13:35:47.289 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Oct-2024 13:35:47.302 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Oct-2024 13:35:47.326 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="C:\Users\2º DAW\Documents\NetBeansProjects\Incidencias2\build\web" path="/Lista">
+  <Resource allowPublicKeyRetrieval="true" auth="Container" driverClassName="com.mysql.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/incidencias2" password="admin" removeAbandonedOnBorrow="true" serverTimezone="UTC" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/Incidencias2?autoReconnect=true" useSSL="false" username="root" validationQuery="SELECT 1"/>
+</Context>
