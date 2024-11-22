@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Elementos</servlet-name>
+        <servlet-class>elementos.SvElementos</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>Tipos</servlet-name>
+        <servlet-class>tipos.SvTipos</servlet-class>
+    </servlet>  
+    <servlet>
+        <servlet-name>Salas</servlet-name>
+        <servlet-class>salas.SvSalas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svUsuarios</servlet-name>
+        <servlet-class>usuarios.SvUsuarios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>svUbicacion</servlet-name>
+        <servlet-class>ubicacion.SvUbicacion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvIncidencias</servlet-name>
+        <servlet-class>Incidencias.SvIncidencias</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Elementos</servlet-name>
+        <url-pattern>/elementos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvIncidencias</servlet-name>
+        <url-pattern>/incidencias</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Tipos</servlet-name>
+        <url-pattern>/tipos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Salas</servlet-name>
+        <url-pattern>/salas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svUsuarios</servlet-name>
+        <url-pattern>/usuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>svUbicacion</servlet-name>
+        <url-pattern>/ubicaciones</url-pattern>
+    </servlet-mapping>
+    <context-param>
+<param-name>ruta_almacen</param-name>
+<param-value>
+
+/Users/2º_DAW/Desktop/DWES/archivos
+</param-value>
+</context-param>
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/incidencias</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+</web-app>

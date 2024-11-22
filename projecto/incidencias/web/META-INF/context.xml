@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ListadoArticulos">
+    
+    <Resource url="jdbc:mysql://localhost:3306/incidencias?autoReconnect=true" name="jdbc/incidencias" 
+              username="root" validationQuery="SELECT 1" auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" 
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000" password="admin" allowPublicKeyRetrieval="true"
+              useSSL="false" serverTimezone="UTC" useJDBCCompliantTimezoneShift="true" 
+              useLegacyDatetimeCode="false"
+
+              removeAbandonedOnBorrow="true" testOnBorrow="true" type="javax.sql.DataSource" />
+  
+</Context>
