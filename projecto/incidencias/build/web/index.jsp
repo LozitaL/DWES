@@ -21,16 +21,12 @@
     </head>
     <body>
         <c:import url="./vista/menu/menu.jsp"/>
-
+        <div onclick="solicitaHora()" style="cursor: pointer"></div>
+        <div id="hora">--</div>
         <div style="width: 100%;height: 100px; margin-top: 100px; text-align: center; font-size: 20px">
             Bienvenido a la gestión de incidencias!!.a
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div onclick="solicitaHora()" style="cursor: pointer"></div>
-        <div id="hora">--</div>
+      
     <script>
         function solicitaHora(){
             if(window.XMLHttpRequest){
