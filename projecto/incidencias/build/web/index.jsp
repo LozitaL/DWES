@@ -42,7 +42,7 @@
                     document.getElementById("hora").innerHTML = http_request.responseText;
 } 
             };
-            http_request.open("GET","hola.jsp",true);
+            http_request.open("GET","hora.jsp",true);
             http_request.send();
         }
     </script>
