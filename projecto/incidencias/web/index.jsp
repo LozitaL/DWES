@@ -37,7 +37,10 @@
                 
             }
             http_request.onreadystatechange = function ()  {
-                alert ("cambia al estado "+ http_request.readyState);
+               if (http_request.readyState == 4 ) {
+                    alert ("cambia al estado "+ http_request.readyState);
+                    document.getElementById("hora").innerHTML = http_request.responseText;
+} 
             };
             http_request.open("GET","hola.jsp",true);
             http_request.send();
