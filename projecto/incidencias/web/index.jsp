@@ -25,5 +25,27 @@
         <div style="width: 100%;height: 100px; margin-top: 100px; text-align: center; font-size: 20px">
             Bienvenido a la gestión de incidencias!!.
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div onclick="solicitaHora()" style="cursor: pointer"></div>
+        <div id="hora">--</div>
+    <script>
+        function solicitaHora(){
+            if(window.XMLHttpRequest){
+                http_request = new XMLHttpRequest();
+            }
+            else if (window.ActiveXObject){
+                http_request = new ActiveXObject("Microsoft.XMLHTTP");
+                
+            }
+            http_request.onreadystatechange = function ()  {
+                alert ("cambia al estado "+ http_request.readyState);
+            };
+            http_request.open("GET","hola.jsp",true);
+            http_request.send();
+        }
+    </script>
     </body>
 </html>

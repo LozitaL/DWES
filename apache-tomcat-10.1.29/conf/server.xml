@@ -156,9 +156,7 @@
                        prefix="localhost_access_log" suffix=".txt"
                        pattern="%h %l %u %t &quot;%r&quot; %s %b" />
 
-<Context
-docBase="/Users/2º_DAW/Desktop/DWES/archivos"
-path="/archivos" />
+<Context docBase="C:\Users\2º DAW\Desktop\DWES\articuloarch" path="/archivos" />
             </Host>
         </Engine>
     </Service>

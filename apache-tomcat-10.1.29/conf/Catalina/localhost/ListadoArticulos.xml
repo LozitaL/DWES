@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context docBase="C:\Users\2º DAW\Documents\clasejoseluis\incidencias\build\web" path="/ListadoArticulos">
+<Context docBase="C:\Users\2º DAW\Desktop\DWES\projecto\incidencias\build\web" path="/ListadoArticulos">
   <Resource allowPublicKeyRetrieval="true" auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/incidencias" password="admin" removeAbandonedOnBorrow="true" serverTimezone="UTC" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/incidencias?autoReconnect=true" useJDBCCompliantTimezoneShift="true" useLegacyDatetimeCode="false" useSSL="false" username="root" validationQuery="SELECT 1"/>
 </Context>
