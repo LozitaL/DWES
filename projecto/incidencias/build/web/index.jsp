@@ -22,7 +22,7 @@
     <body>
         <c:import url="./vista/menu/menu.jsp"/>
         <div onclick="solicitaHora()" style="cursor: pointer">dame la hora</div>
-        <div id="hora" name= "hora">--</div>
+        <div id="hora" name= "hora">-- a</div>
         <div style="width: 100%;height: 100px; margin-top: 100px; text-align: center; font-size: 20px">
             Bienvenido a la gestión de incidencias!!.a
         </div>
